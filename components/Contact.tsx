@@ -9,7 +9,7 @@ const lobster = Lobster({ subsets: ["latin"], weight: "400" });
 
 function Contact() {
   return (
-    <section id="contact" className="py-24 bg-zinc-100">
+    <section id="contact" className="py-24 bg-zinc-100 h-screen flex items-center justify-center">
       <div className="container grid grid-cols-1 md:grid-cols-2">
         <form className="space-y-3">
           <h2
