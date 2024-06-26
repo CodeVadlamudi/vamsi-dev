@@ -11,9 +11,9 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="py-24 bg-zinc-100 h-screen flex items-center justify-center"
+      className="bg-zinc-100 flex items-center justify-center py-24"
     >
-      <div className="container grid grid-cols-1 lg:grid-cols-2">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10">
         <form className="space-y-4">
           <h2
             className={`text-orange-500 text-3xl font-semibold mb-5 ${lobster.className}`}
@@ -77,7 +77,7 @@ function Contact() {
           </Button>
         </form>
 
-        <div className="flex flex-col space-y-4 mt-10 md:mt-0 md:ml-20">
+        <div className="flex flex-col space-y-4">
           <h3 className="text-xl font-medium underline text-orange-500">
             Address
           </h3>

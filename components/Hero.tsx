@@ -4,7 +4,7 @@ import Banner from "./Banner";
 
 function Hero() {
   return (
-    <div className="relative h-[100dvb] w-full">
+    <div className="relative h-screen w-full">
       <video
         src="/videos/hero.mp4"
         autoPlay

@@ -15,7 +15,7 @@ function Skills() {
       style={{
         backgroundImage:
           "linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('https://imgur.com/erdEgmx.png')",
-        height: "100dvb",
+        height: "100vh",
       }}
       className="bg-no-repeat bg-center bg-cover bg-fixed flex items-center justify-center w-full"
     >
