@@ -24,7 +24,7 @@ function Header() {
 
   const pathname = usePathname();
   return (
-    <header className="text-white p-5 xl:px-0 z-50 bg-black/90 fixed inset-x-0">
+    <header className="text-white p-5 xl:px-0 z-50 bg-black sticky top-0">
       <div className="container flex items-center justify-between">
         <Link href={"/"} className={`text-3xl ${lobster.className}`}>
           Vamsi<span className="text-orange-500">.</span>

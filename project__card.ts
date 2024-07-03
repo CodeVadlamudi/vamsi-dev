@@ -23,4 +23,12 @@ export const projectCard = [
     pCode: "Vite + React, Tailwindcss, Heroicons",
     pLink: "https://blog-preview-card-aea.pages.dev/",
   },
+  {
+    id: 4,
+    pImg: "https://imgur.com/U6yhz4n.png",
+    pAlt: "Food Website Image",
+    pTitle: "Food Website",
+    pCode: "Vite + React, Tailwindcss, Heroicons",
+    pLink: "https://food-website-xi.vercel.app/",
+  },
 ];

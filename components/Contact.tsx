@@ -11,7 +11,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="bg-zinc-100 flex items-center justify-center py-24"
+      className="bg-zinc-100 h-screen grid place-items-center"
     >
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10">
         <form className="space-y-4">

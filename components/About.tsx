@@ -10,8 +10,8 @@ const lobster = Lobster({ subsets: ["latin"], weight: "400" });
 function About() {
   return (
     <section id="about">
-      <div className="container flow-root">
-        <div className="grid grid-cols-1 md:w-4/5 md:mx-auto lg:w-auto lg:grid-cols-2 gap-10 items-center my-24">
+      <div className="container h-screen place-items-center grid">
+        <div className="grid grid-cols-1 md:w-4/5 md:mx-auto lg:w-auto lg:grid-cols-2 gap-10 items-center">
           <motion.div
             initial={{
               opacity: 0,
@@ -57,17 +57,25 @@ function About() {
             <h2 className={`text-4xl text-orange-500 ${lobster.className}`}>
               About
             </h2>
-            <p className="text-base sm:text-lg">
-              Greetings, I am Vamsi Vadlamudi and a Junior Front-End Developer
-              deeply committed to the art of creating captivating and highly
-              responsive web experiences. My relentless motivation propels me to
-              achieve excellence in my work. I embrace daily challenges as
-              opportunities for growth, perpetually expanding my skill set to
-              enhance the quality of my contributions. For instance, my
-              exploration of React has enabled me to elevate our web pages, thus
-              advancing my proficiency in development.
+            <p>
+              Greetings, I am Vamsi Vadlamudi and a Front-End Developer deeply
+              committed to the art of creating captivating and highly responsive
+              web experiences. My relentless motivation propels me to achieve
+              excellence in my work. I embrace daily challenges as opportunities
+              for growth, perpetually expanding my skill set to enhance the
+              quality of my contributions. For instance, my exploration of React
+              has enabled me to elevate our web pages, thus advancing my
+              proficiency in development.
             </p>
-            <p className="text-base sm:text-lg">
+
+            <p>
+              I want to help the deaf community develop. I teach deaf people how
+              to code and also guide them. Additionally, I want to help talented
+              individuals in the deaf community find employment opportunities. I
+              am an introducer at Sign Skill Bridge.
+            </p>
+
+            <p>
               I have been learning Angular, TypeScript, etc., which I use for my
               work. Hence, I am challenged to study a new course that will
               improve my skills and contribute to the growth of our company and

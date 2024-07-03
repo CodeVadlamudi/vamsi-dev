@@ -1,16 +1,14 @@
 import { Lobster } from "next/font/google";
 import React from "react";
-import Link from "next/link";
-import { ArrowRightToLineIcon, SquareArrowOutUpRight } from "lucide-react";
 import Image from "next/image";
 import { projectCard } from "@/project__card";
 
 const lobster = Lobster({ subsets: ["latin"], weight: "400" });
 
-function Projects() {
+function page() {
   return (
-    <section id="projects" className="my-24">
-      <div className="container space-y-10">
+    <section className="flow-root">
+      <div className="container my-24">
         <h2
           className={`text-4xl text-orange-500 border-b w-1/2 mx-auto text-center pb-5 border-orange-500/30 ${lobster.className}`}
         >
@@ -33,30 +31,14 @@ function Projects() {
               </div>
               <div className="p-5 space-y-2">
                 <h3 className="text-xl font-semibold">{card.pTitle}</h3>
-                <div className="flex items-center justify-between">
-                  <p>{card.pCode}</p>
-                  <Link href={card.pLink} target="_blank">
-                    <SquareArrowOutUpRight
-                      size={20}
-                      className="text-orange-500"
-                    />
-                  </Link>
-                </div>
+                <p>{card.pCode}</p>
               </div>
             </div>
           ))}
         </div>
-
-        <Link
-          href={"/projects"}
-          className="flex items-center justify-center border-2 border-orange-500 w-60 h-14 text-lg hover:bg-orange-500 hover:text-white duration-200 rounded mx-auto"
-        >
-          More
-          <ArrowRightToLineIcon className="w-5 ml-4" />
-        </Link>
       </div>
     </section>
   );
 }
 
-export default Projects;
+export default page;
