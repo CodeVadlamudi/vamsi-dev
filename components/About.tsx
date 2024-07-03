@@ -9,7 +9,7 @@ const lobster = Lobster({ subsets: ["latin"], weight: "400" });
 
 function About() {
   return (
-    <section id="about" className="my-24">
+    <section id="about" className="my-28">
       <div className="container">
         <div className="grid grid-cols-1 md:w-4/5 md:mx-auto lg:w-auto lg:grid-cols-2 gap-10 items-center">
           <motion.div

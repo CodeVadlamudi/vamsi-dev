@@ -1,7 +1,7 @@
 import { Lobster } from "next/font/google";
 import React from "react";
 import Image from "next/image";
-import { projectCard } from "@/project__card";
+import { projectCard } from "@/data";
 
 const lobster = Lobster({ subsets: ["latin"], weight: "400" });
 

@@ -2,9 +2,9 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { skillCard } from "./SkillCard";
 import Image from "next/image";
 import { Lobster } from "next/font/google";
+import { skillCard } from "@/data";
 
 const lobster = Lobster({ subsets: ["latin"], weight: "400" });
 
